@@ -1,0 +1,19 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #ccc;
+}
+
+.day {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.day:nth-child(7n) {
+    border-right: none;
+}
+
+.reservado {
+    background-color: #ffcccc;
+}
